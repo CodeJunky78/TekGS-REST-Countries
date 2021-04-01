@@ -1,0 +1,3 @@
+# Project exclude paths
+/node_modules/
+/webdriverio-test/node_modules/

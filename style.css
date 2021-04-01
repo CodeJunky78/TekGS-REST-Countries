@@ -1,0 +1,71 @@
+:root {
+    --background-el: hsl(0, 0%, 100%);
+    --body: hsl(0, 0%, 98%);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Lucida Sans", sans-serif;
+    background-color: var(--body);
+    color: hsl(180, 12%, 6%);
+    font-size: 14px;
+}
+
+nav {
+    padding: 10px;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+h1 {
+    justify-self: flex-start;
+    margin-left: 15px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+h4 {
+    position: relative;
+    font-weight: 400;
+}
+
+label.searchCountry {
+    margin-left: 38px;
+}
+
+.searchField {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submitBtn {
+    position: relative;
+    top: 20px;
+    color: hsl(0, 10%, 25%);
+}
+
+.displayOutput {
+    position: relative;
+    font-weight: 400;
+}
+
+input[type="search"] {
+    position: relative;
+    width: 400px;
+    display: block;
+    border: none;
+    margin-top: 5px;
+    background-color: var(--background-el);
+    font-size: 1rem;
+    color: hsl(200, 15%, 8%);
+}
+
+input[type="search"] {
+    padding: 10px 10px;
+}

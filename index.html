@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" />
+        <title>REST API Countries - Country Capital</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>REST API Countries - Country Capital</h1>
+            </nav>
+        </header>
+        <main>
+            <div class="searchField">
+                <label class="searchCountry">
+                    <h4>Enter country name or code to search for:</h4>
+                    <input id="searchInput" type="search" placeholder="Search for a country" tabindex="0"/>
+                </label>
+            </div>
+            <div id="displayOutput"></div>
+            <label class="submitButton">
+                <input id="submitBtn" type="button" class="submitBtn" value="search" tabindex="1"/>
+            </label>
+        </main>
+        <script src="getCapital.js"></script>
+    </body>
+</html>

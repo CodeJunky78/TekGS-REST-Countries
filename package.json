@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@wdio/cli": "^7.3.0"
+  }
+}
